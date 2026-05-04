@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studi Komprehensif: Kelompok Sosial Charles H. Cooley</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=Lora:ital,wght@0,700;1,700&display=swap');
+        
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #fcfcfc; color: #1e293b; }
+        h1, h2, h3 { font-family: 'Lora', serif; }
+        
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 650px;
+            margin: auto;
+            height: 400px;
+        }
+
+        .section-divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, #e2e8f0, transparent);
+            margin: 4rem 0;
+        }
+
+        .sticky-nav {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid #e2e8f0;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Hero -->
+    <header class="bg-slate-900 text-white py-24 px-6 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-20">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=1500" class="w-full h-full object-cover" alt="Interaksi Sosial">
+        </div>
+        <div class="relative z-10 max-w-5xl mx-auto text-center">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight">Dikotomi Sosial Cooley</h1>
+            <p class="text-xl md:text-2xl text-slate-300 font-light max-w-3xl mx-auto italic">
+                Eksplorasi mendalam mengenai fondasi interaksi manusia melalui kacamata sosiologi klasik.
+            </p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="sticky-nav py-4 hidden md:block">
+        <ul class="flex justify-center gap-8 text-xs font-bold uppercase tracking-widest text-slate-500">
+            <li><a href="#latar-belakang" class="hover:text-blue-600 transition">1. Latar Belakang</a></li>
+            <li><a href="#penjelasan" class="hover:text-blue-600 transition">2. Teori Mendalam</a></li>
+            <li><a href="#studi-kasus" class="hover:text-blue-600 transition">3. Studi Kasus</a></li>
+            <li><a href="#perbedaan" class="hover:text-blue-600 transition">4. Perbedaan Utama</a></li>
+        </ul>
+    </nav>
+
+    <main class="max-w-5xl mx-auto px-6 py-16">
+
+        <!-- 1. LATAR BELAKANG -->
+        <section id="latar-belakang" class="space-y-8">
+            <div class="flex items-center gap-4">
+                <span class="text-5xl font-black text-blue-100">01</span>
+                <h2 class="text-4xl font-bold text-slate-800">Latar Belakang Pemikiran</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="text-lg text-slate-600 leading-relaxed space-y-4">
+                    <p>
+                        Charles Horton Cooley mengembangkan pengelompokan ini pada awal abad ke-20 sebagai respon terhadap <strong>Revolusi Industri</strong>. Ia melihat masyarakat bergeser dari komunitas pedesaan yang akrab (paguyuban) menuju masyarakat perkotaan yang asing dan mekanis (patembayan).
+                    </p>
+                    <p>
+                        <strong>Analogi:</strong> Bayangkan masyarakat sebagai sebuah pohon. Cooley menyadari bahwa jika akar (kelompok primer) tidak kuat, maka batang dan daun (kelompok sekunder/masyarakat luas) akan mudah tumbang oleh egoisme individu. Ia ingin menekankan bahwa kualitas manusia ditentukan oleh kualitas hubungannya.
+                    </p>
+                </div>
+                <div class="bg-blue-50 p-8 rounded-3xl border border-blue-100">
+                    <h4 class="font-bold text-blue-800 mb-4 uppercase text-sm tracking-widest">Kunci Analisis:</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex gap-2"><span>📌</span> <strong>Human Nature:</strong> Sifat manusia bukan bawaan lahir, tapi dibentuk melalui pergaulan.</li>
+                        <li class="flex gap-2"><span>📌</span> <strong>Social Mirror:</strong> Perlunya kelompok kecil untuk memberi "pantulan" moral bagi diri.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- 2. PENJELASAN MENDALAM -->
+        <section id="penjelasan" class="space-y-16">
+            <div class="flex items-center gap-4">
+                <span class="text-5xl font-black text-pink-100">02</span>
+                <h2 class="text-4xl font-bold text-slate-800">Penjelasan Teoretis</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Primer -->
+                <div class="bg-white p-8 rounded-[2.5rem] shadow-xl border border-slate-100 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-pink-500/5 rounded-full -mr-16 -mt-16"></div>
+                    <h3 class="text-2xl font-bold mb-6 text-pink-600">Kelompok Sosial Primer</h3>
+                    <div class="space-y-4 text-slate-600">
+                        <p>Kelompok primer adalah <strong>"Mata Air Kehidupan"</strong>. Di sini interaksi berlangsung secara tatap muka (face-to-face), intim, dan melibatkan emosi yang mendalam.</p>
+                        <p class="text-sm font-semibold text-slate-800 italic">"We-feeling" (Perasaan Kita) sangat kuat di sini.</p>
+                        <div class="pt-4 border-t border-slate-100 space-y-2">
+                            <p class="text-xs font-bold uppercase text-slate-400">Karakteristik Teknis:</p>
+                            <ul class="text-sm list-disc pl-5">
+                                <li>Hubungan person-to-person secara total.</li>
+                                <li>Durasi hubungan cenderung permanen.</li>
+                                <li>Tujuannya adalah hubungan itu sendiri (kasih sayang).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sekunder -->
+                <div class="bg-white p-8 rounded-[2.5rem] shadow-xl border border-slate-100 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-blue-500/5 rounded-full -mr-16 -mt-16"></div>
+                    <h3 class="text-2xl font-bold mb-6 text-blue-600">Kelompok Sosial Sekunder</h3>
+                    <div class="space-y-4 text-slate-600">
+                        <p>Kelompok sekunder bersifat <strong>Formal dan Utilitarian</strong>. Anggota bergabung karena memiliki kepentingan spesifik atau tujuan profesional yang sama.</p>
+                        <p class="text-sm font-semibold text-slate-800 italic">Hubungan bersifat "Role-to-role" (Jabatan ke Jabatan).</p>
+                        <div class="pt-4 border-t border-slate-100 space-y-2">
+                            <p class="text-xs font-bold uppercase text-slate-400">Karakteristik Teknis:</p>
+                            <ul class="text-sm list-disc pl-5">
+                                <li>Komunikasi bersifat formal/kontraktual.</li>
+                                <li>Anggota bersifat impersonal (bisa digantikan).</li>
+                                <li>Hubungan terbatas pada jam atau urusan tertentu.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- 3. STUDI KASUS -->
+        <section id="studi-kasus" class="space-y-12">
+            <div class="flex items-center gap-4">
+                <span class="text-5xl font-black text-amber-100">03</span>
+                <h2 class="text-4xl font-bold text-slate-800">Studi Kasus & Aplikasi</h2>
+            </div>
+
+            <!-- Kasus A -->
+            <div class="bg-white rounded-[3rem] shadow-lg overflow-hidden border border-slate-50">
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:w-1/2 h-[350px]">
+                        <img src="https://images.unsplash.com/photo-1484981138541-3d074aa97716?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover" alt="Persahabatan">
+                    </div>
+                    <div class="md:w-1/2 p-10 flex flex-col justify-center bg-pink-50/20">
+                        <h4 class="text-pink-600 font-bold uppercase text-xs mb-2 tracking-widest">Studi Kasus Primer</h4>
+                        <h3 class="text-2xl font-bold mb-4 italic">"Peer Group" (Kelompok Teman Sebaya)</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                            Sekelompok sahabat yang sudah berteman sejak kecil. Mereka saling berbagi rahasia, menangis bersama, dan mendukung tanpa pamrih. <strong>Penjelasan:</strong> Di sini, identitas individu "dipantulkan" secara jujur oleh sahabat, membentuk harga diri yang kuat tanpa tekanan aturan formal.
+                        </p>
+                        <div class="flex gap-4">
+                            <span class="px-3 py-1 bg-white border border-pink-200 text-[10px] font-bold rounded-full">INTIM</span>
+                            <span class="px-3 py-1 bg-white border border-pink-200 text-[10px] font-bold rounded-full">EMOSIONAL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kasus B -->
+            <div class="bg-white rounded-[3rem] shadow-lg overflow-hidden border border-slate-50">
+                <div class="flex flex-col md:flex-row-reverse">
+                    <div class="md:w-1/2 h-[350px]">
+                        <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover" alt="Asosiasi Profesi">
+                    </div>
+                    <div class="md:w-1/2 p-10 flex flex-col justify-center bg-blue-50/20">
+                        <h4 class="text-blue-600 font-bold uppercase text-xs mb-2 tracking-widest">Studi Kasus Sekunder</h4>
+                        <h3 class="text-2xl font-bold mb-4 italic">"Persatuan Buruh/Karyawan"</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                            Karyawan bergabung dalam serikat untuk memperjuangkan gaji dan hak kerja. <strong>Penjelasan:</strong> Mereka berinteraksi bukan karena saling menyayangi secara personal, melainkan karena memiliki musuh atau target yang sama. Hubungan berakhir saat salah satu berhenti bekerja.
+                        </p>
+                        <div class="flex gap-4">
+                            <span class="px-3 py-1 bg-white border border-blue-200 text-[10px] font-bold rounded-full">FORMAL</span>
+                            <span class="px-3 py-1 bg-white border border-blue-200 text-[10px] font-bold rounded-full">KONTRAKTUAL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- 4. PERBEDAAN UTAMA -->
+        <section id="perbedaan" class="space-y-12">
+            <div class="flex items-center gap-4">
+                <span class="text-5xl font-black text-emerald-100">04</span>
+                <h2 class="text-4xl font-bold text-slate-800">Perbedaan Utama</h2>
+            </div>
+
+            <div class="bg-white p-8 md:p-12 rounded-[3rem] shadow-xl border border-slate-100">
+                <div class="chart-container mb-12">
+                    <canvas id="comparisonRadar"></canvas>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="p-6 bg-slate-50 rounded-2xl text-center">
+                        <h4 class="font-bold text-slate-800 mb-2">Aspek Komunikasi</h4>
+                        <p class="text-xs text-slate-500 italic">Primer: Tatap muka & Lisan<br>Sekunder: Tertulis & Media</p>
+                    </div>
+                    <div class="p-6 bg-slate-50 rounded-2xl text-center">
+                        <h4 class="font-bold text-slate-800 mb-2">Aspek Keanggotaan</h4>
+                        <p class="text-xs text-slate-500 italic">Primer: Kecil & Eksklusif<br>Sekunder: Luas & Inklusif</p>
+                    </div>
+                    <div class="p-6 bg-slate-50 rounded-2xl text-center">
+                        <h4 class="font-bold text-slate-800 mb-2">Aspek Penggantian</h4>
+                        <p class="text-xs text-slate-500 italic">Primer: Tak Tergantikan<br>Sekunder: Sangat Mudah Diganti</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. PENUTUP -->
+        <footer class="mt-20 bg-slate-900 rounded-[3rem] p-12 text-center text-white relative overflow-hidden">
+            <div class="relative z-10">
+                <h2 class="text-3xl font-bold mb-6 italic">Sintesis Akhir</h2>
+                <p class="max-w-2xl mx-auto text-slate-400 leading-relaxed mb-8">
+                    Charles H. Cooley mengajarkan kita bahwa manusia modern memerlukan kedua kelompok ini untuk bertahan hidup. Tanpa kelompok primer, kita kehilangan <strong>Identitas</strong>. Tanpa kelompok sekunder, kita kehilangan <strong>Fungsi Sosial</strong> dalam peradaban.
+                </p>
+                <div class="pt-8 border-t border-slate-800 flex flex-col items-center gap-4">
+                    <span class="text-[10px] uppercase tracking-[0.4em] font-black opacity-40">Materi Sosiologi Kelas X — C.H. Cooley</span>
+                </div>
+            </div>
+            <!-- Glow effect -->
+            <div class="absolute -bottom-24 -right-24 w-64 h-64 bg-blue-600 opacity-20 blur-[100px]"></div>
+        </footer>
+
+    </main>
+
+    <script>
+        const radarData = {
+            labels: [
+                ['Intensitas', 'Emosional'],
+                ['Jumlah', 'Anggota'],
+                ['Durasi', 'Waktu'],
+                ['Sifat', 'Kontraktual'],
+                ['Tingkat', 'Formalitas'],
+                ['Face-to-face', 'Interaction']
+            ],
+            datasets: [
+                {
+                    label: 'Kelompok Primer',
+                    data: [95, 20, 90, 10, 15, 95],
+                    backgroundColor: 'rgba(219, 39, 119, 0.2)',
+                    borderColor: '#db2777',
+                    borderWidth: 3,
+                    pointBackgroundColor: '#db2777'
+                },
+                {
+                    label: 'Kelompok Sekunder',
+                    data: [20, 90, 30, 95, 95, 25],
+                    backgroundColor: 'rgba(37, 99, 235, 0.2)',
+                    borderColor: '#2563eb',
+                    borderWidth: 3,
+                    pointBackgroundColor: '#2563eb'
+                }
+            ]
+        };
+
+        const config = {
+            type: 'radar',
+            data: radarData,
+            options: {
+                maintainAspectRatio: false,
+                responsive: true,
+                scales: {
+                    r: {
+                        angleLines: { color: '#e2e8f0' },
+                        grid: { color: '#e2e8f0' },
+                        pointLabels: {
+                            font: { family: "'Plus Jakarta Sans'", size: 10, weight: 'bold' },
+                            color: '#64748b'
+                        },
+                        ticks: { display: false }
+                    }
+                },
+                plugins: {
+                    legend: { position: 'bottom' },
+                    tooltip: {
+                        callbacks: {
+                            title: function(tooltipItems) {
+                                const item = tooltipItems[0];
+                                let label = item.chart.data.labels[item.dataIndex];
+                                return Array.isArray(label) ? label.join(' ') : label;
+                            }
+                        }
+                    }
+                }
+            }
+        };
+
+        window.onload = function() {
+            const ctx = document.getElementById('comparisonRadar').getContext('2d');
+            new Chart(ctx, config);
+        };
+    </script>
+</body>
+</html>
